@@ -1,0 +1,35 @@
+@import './styles/layout.css';
+@import './styles/NavBar.css';
+@import './styles/About.css';
+@import './styles/skills.css';
+@import './styles/Title.css';
+@import './styles/Projects.css';
+@import './styles/Contact.css';
+@import './styles/Education.css';
+@import './styles/Experience.css';
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+::selection{
+  background-color:#0056d898 ;
+}
+body::-webkit-scrollbar{
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #0056d898;
+  border-radius: 50px;
+}
+body::-webkit-scrollbar-track{
+  background-color: #777;
+}
+body{
+  color: rgb(255, 255, 255);
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+  background-color: #141d26;
+  font-size: 1.2rem;
+}

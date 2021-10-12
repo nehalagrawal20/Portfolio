@@ -1,0 +1,94 @@
+.NavBar{
+  height: 100vh;
+}
+.nav{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile{
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+.profile img{
+  width: 70%;
+  border-radius: 100%;
+  border:6px solid black ;
+  margin-bottom: 1rem;
+  transform: rotate(-10deg);
+}
+.nav-items {
+  width: 100%;
+}
+.nav-item{
+  list-style: none;
+  text-align: center;
+}
+.nav-item a {
+  display: block;
+  font-size: inherit;
+  color: inherit;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  position: relative;
+}
+.nav-item a::after{
+  position: absolute;
+	content: "";
+	width: 0%;
+	height: 2px;
+	left: 50%;
+  border-bottom: 3px solid #037FFF;
+	bottom: -2px;
+	transition: all 0.4s ease-in-out;
+}
+.nav-item a:hover:after{
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+	left: 20%;
+}
+.active{
+  background-color: #037FFF;
+}
+.footer{
+  width: 100%;
+  border-top: 1px solid rgb(255, 255, 255);
+}
+.footer p{
+padding:1rem 0 ;
+text-align: center;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-holder{
+  margin-right: 6px;
+}
+.icon{
+font-size: 1.6rem;
+color: #a4acc4;
+transition: all .4s ease-in-out;
+}
+.it:hover{
+color: #C13584;
+}
+.gh:hover{
+color: rgba(212, 45, 212, 0.788);
+}
+.tw:hover{
+color: #1DA1F2;
+}
+.li:hover{
+color: #0072b1;
+}
+.cp:hover{
+color: rgb(0, 0, 0);
+}

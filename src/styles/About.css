@@ -1,0 +1,54 @@
+.nehal-about{
+   color: white;
+   text-align: center;
+   padding-top: 5rem;
+  }
+  .nehal-about span{
+    color: #037FFF;
+  }
+  .nehal-sub-about{
+    text-align: center;
+    padding-top: 10px
+}
+.btn{
+  cursor: pointer;
+  padding:1rem 2rem ;
+  background-color: rgb(36 52 71);
+  outline: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  margin-top: 2rem;
+  position: relative;
+}
+
+@media screen and (max-width: 1270px){
+    .btn{
+    margin: 2rem 5rem;
+  }
+}
+@media screen and (max-width: 1100px){
+    .btn{
+    margin: 2rem 2rem;
+  }
+}
+.btn::after{
+  position: absolute;
+  content: "";
+  width: 0;
+  height: .3rem;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(0, 110, 255);
+  transition: all 0.4s ease-in-out;
+  
+}
+.btn:hover::after{
+  width: 100%;
+}
