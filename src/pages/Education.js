@@ -11,7 +11,7 @@ function Education() {
           <li>
             <div class="right_content">
               <h2>IET DAVV</h2>
-              <p>indore, Pursuing BE in Information Technology.
+              <p>Indore, Pursuing BE in Information Technology.
                  SGPA: 7.72
         </p>
             </div>
