@@ -42,15 +42,15 @@ const projects = [
         month: 'Aug',
         year: '2020'
     },
-    {
-        id: 5,
-        image: blog5,
-        title: 'Glassomorphic Calculator',
-        link: 'https://glassomorphiccalculator.netlify.app/',
-        date : '09',
-        month: 'Sep',
-        year: '2019'
-    },
+//     {
+//         id: 5,
+//         image: blog5,
+//         title: 'Glassomorphic Calculator',
+//         link: 'https://glassomorphiccalculator.netlify.app/',
+//         date : '09',
+//         month: 'Sep',
+//         year: '2019'
+//     },
     {
         id: 6,
         image: blog6,
